@@ -1,0 +1,32 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.tower {
+  display: inline-block;
+  height: 60px;
+  width: 30px;
+  border: solid 1px black;
+  position: relative;
+}
+
+.disc {
+  height: 20px;
+}
+
+#three {
+  width: 30px;
+  background: red;
+}
+
+#two {
+  width: 20px;
+  background: blue;
+}
+
+#one {
+  width: 10px;
+  background: green;
+}
