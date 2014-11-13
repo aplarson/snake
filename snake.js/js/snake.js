@@ -72,6 +72,7 @@
     this.snake = new Snake (this)
     this.board = buildBoard(20)
     this.score = 0;
+    this.interval = 300;
   }
   
   function buildBoard(dimensions) {

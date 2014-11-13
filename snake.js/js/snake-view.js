@@ -8,8 +8,8 @@
     this.$el = $el;
     this.render();
     this.bindEvents();
-    this.gamestate = setInterval(this.step.bind(this), 100);
-  
+    this.gamestate = setInterval(this.step.bind(this), this.board.interval);
+
   };
   
   View.prototype.step = function (){
